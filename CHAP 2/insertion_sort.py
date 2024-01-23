@@ -1,3 +1,11 @@
+# Time Complexity:
+
+# Best  Case : O(n)
+# Avg   Case : O(n^2)
+# Worst Case : O(n^2)
+
+# Space Complexity: O(1) (Always)
+
 def insertion_sort(arr, reverse = False):
     for i in range(1, len(arr)):
         temp = arr[i]
