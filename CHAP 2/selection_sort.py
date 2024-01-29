@@ -45,12 +45,13 @@ def selection_sort_stable_sorted_checker(arr, reverse = False):
         
         if flag:
             break
+            
+        # It does not print in the best case means that the checker is working
+        print("checked")
         
         min_idx = i
         for j in range(i+1, size):
-            if (not reverse and arr[j] < arr[min_idx]) or (reverse and arr[j] > arr[min_idx]):
-                # It does not print means that the checker is working
-                print("checked")
+            if (not reverse and arr[j] < arr[min_idx]) or (reverse and arr[j] > arr[min_idx]):    
                 min_idx = j
         
         # Insert instead of swapping to make it stable
