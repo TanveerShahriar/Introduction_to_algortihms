@@ -6,6 +6,8 @@
 
 # Space Complexity: O(1) (Always)
 
+# Insertion sort is a stable sorting algorithm
+
 def insertion_sort(arr, reverse = False):
     for i in range(1, len(arr)):
         temp = arr[i]
